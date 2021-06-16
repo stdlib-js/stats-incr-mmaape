@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-mmaape",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compute a moving arctangent mean absolute percentage error (MAAPE) incrementally.",
   "license": "Apache-2.0",
   "author": {
