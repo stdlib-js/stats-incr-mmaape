@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.incrmmaape;
+})();
 })();
 </script>
 ```
@@ -146,6 +148,7 @@ m = accumulator();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmaape@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var accumulator;
 var v1;
@@ -163,6 +166,7 @@ for ( i = 0; i < 100; i++ ) {
 }
 console.log( accumulator() );
 
+})();
 })();
 </script>
 </body>
@@ -271,17 +275,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@kim:2016a]: https://www.sciencedirect.com/science/article/pii/S0169207016000121
 
-[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/umd
+[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape/tree/umd
+[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape/tree/umd/tree/umd
 
-[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape/tree/umd
+[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape/tree/umd/tree/umd
 
-[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe/tree/umd
+[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe/tree/umd/tree/umd
 
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/umd
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
