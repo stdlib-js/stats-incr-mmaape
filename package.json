@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-positive-integer": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.1",
-    "@stdlib/math-base-special-atan": "^0.2.1",
+    "@stdlib/math-base-special-atan": "^0.2.2",
     "@stdlib/stats-incr-mmean": "^0.2.1",
     "@stdlib/string-format": "^0.2.1",
     "@stdlib/types": "^0.3.2",
